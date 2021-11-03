@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "rules": {
+    "string-quotes": null,
+    "value-list-comma-newline-after": null,
+    "max-nesting-depth": null,
+    "selector-class-pattern": null
+  }
+}

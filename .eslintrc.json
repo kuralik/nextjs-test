@@ -1,0 +1,54 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "eslint-plugin-react-hooks"
+  ],
+  "rules": {
+    "arrow-parens": ["error", "as-needed"],
+    "comma-dangle": ["error", "never"],
+    "import/extensions": "off",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "windows"],
+    "max-len": ["error", { "code": 150 }],
+    "no-console": "error",
+    "no-plusplus": [0],
+    "no-unused-vars": "error",
+    "no-use-before-define": "off",
+    "quotes": ["error", "double"],
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-filename-extension": [ 1, { "extensions": [".ts", ".tsx"] }],
+    "react/jsx-one-expression-per-line": [0, { "allow": "single-child" }],
+    "react/jsx-props-no-spreading": [0],
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "semi": ["error", "never"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}

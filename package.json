@@ -1,0 +1,55 @@
+{
+  "name": "kwiwit-web-2.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
+    "lint-staged": "lint-staged",
+    "next-lint": "next lint"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.0-rc.1",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "axios": "^0.24.0",
+    "next": "12.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.0.0",
+    "@testing-library/react": "^12.1.0",
+    "@testing-library/user-event": "^13.0.0",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-redux": "^7.1.18",
+    "eslint": "<8.0.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-next": "12.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^27.3.1",
+    "jest-css-modules-transform": "^4.2.0",
+    "lint-staged": "^11.2.3",
+    "postcss": "^8.3.11",
+    "pre-commit": "^1.2.2",
+    "react-test-renderer": "^17.0.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "4.4.4"
+  }
+}
