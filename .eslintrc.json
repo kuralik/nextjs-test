@@ -28,7 +28,6 @@
     "comma-dangle": ["error", "never"],
     "import/extensions": "off",
     "indent": ["error", 2, { "SwitchCase": 1 }],
-    "linebreak-style": ["error", "windows"],
     "max-len": ["error", { "code": 150 }],
     "no-console": "error",
     "no-plusplus": [0],
